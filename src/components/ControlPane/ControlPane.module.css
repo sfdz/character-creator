@@ -10,12 +10,17 @@
     to deal with it yet!
   */
   margin-bottom: 32px;
+  max-width: 400px;
+  overflow-x: scroll;
 }
 
 .title {
   margin: 0;
   /* Optical centering */
   margin-bottom: -4px;
+  position: sticky;
+  left: 0;
+  right: auto;
 }
 
 .metadata {
@@ -23,4 +28,5 @@
   font-size: 0.875rem;
   font-weight: 400;
   color: hsl(0deg, 0%, 30%);
+  position: sticky;
 }
